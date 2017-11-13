@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on YoungLife at Oakland</title>
-    <link>http://ckunderd.github.io/younglifeou/categories/</link>
-    <description>Recent content in Categories on YoungLife at Oakland</description>
+    <title>Categories on YoungLife at Oakland University</title>
+    <link>https://ckunderd.github.io/younglife/categories/</link>
+    <description>Recent content in Categories on YoungLife at Oakland University</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://ckunderd.github.io/younglifeou/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ckunderd.github.io/younglife/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
