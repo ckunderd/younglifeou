@@ -1,5 +1,5 @@
 title = "YoungLife at Oakland"
-baseURL = "https://example.com"
+baseURL = "http://ckunderd.github.io/younglifeou"
 languageCode = "en-us"
 theme = "ananke"
 themesDir = "themes"
