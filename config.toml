@@ -46,7 +46,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "YoungLife at Oakland University"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
