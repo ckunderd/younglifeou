@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ckunderd.github.io/younglife/categories/</loc>
+    <loc>http://younglifeou.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ckunderd.github.io/younglife/tags/</loc>
+    <loc>http://younglifeou.org/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ckunderd.github.io/younglife/</loc>
+    <loc>http://younglifeou.org/</loc>
     <priority>0</priority>
   </url>
   

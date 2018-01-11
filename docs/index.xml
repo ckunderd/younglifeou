@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YoungLife at Oakland University</title>
-    <link>https://ckunderd.github.io/younglife/</link>
+    <link>http://younglifeou.org/</link>
     <description>Recent content on YoungLife at Oakland University</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ckunderd.github.io/younglife/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://younglifeou.org/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
