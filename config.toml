@@ -48,12 +48,12 @@ googleAnalytics = ""
   [params.navigation]
     brand = "YoungLife at Oakland University"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    logo = "logo.png"
+    services = "Details"
+    portfolio = "Venue"
     about = "About"
     team = "Team"
-    contact = "Contact"
+    contact = "Register"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -67,8 +67,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://timberwolf.younglife.org/Pages/default.aspx"
+      name = "Timber Wolf"
       weight = 10
 
 
@@ -76,45 +76,45 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Join us March 23-25th for YoungLife OU"
+    subtitle = "Spring Retreat 2018"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Retreat Details"
+    subtitle = "Mark your calendars for an incredible weekend away."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-map-marker"
+      title = "Where"
+      description = "The retreat is happening at the legendary Timber Wolf Lake Camp in western Michigan. Sports, games, rock climbing, and more awaits."
+      url = "https://timberwolf.younglife.org/Pages/default.aspx"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-car"
+      title = "When"
+      description = "The trip starts at 5pm on Friday March 23, with carpools leaving all evening from Oakland University. We return around 1pm on Sunday, March 25th."
+      url = "#contact"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-dollar"
+      title = "Cost"
+      description = "The first 25 students to register go for $25! The full cost is $75. There are scholarships available upon request based on need as well. Register early!"
+      url = "#contact"
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
+    title = "Venue"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
@@ -126,7 +126,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -161,7 +161,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -213,7 +213,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -241,9 +241,9 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Reserve Now"
+    subtitle  = "Fill out the form below to reserve your space today!"
+    buttonText = "Reserve now!"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -261,13 +261,13 @@ She worked at Pied Piper for years until they went belly up."""
     # as an example the mailout plugin from caddy.
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
-    # postURL = "https://example.com/mailout/"
+    # postURL = "https://formcarry.com/s/rkxV2ZtSM"
 
-    email = "your@email.com"
+    email = "info@younglifeou.org"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    #thanks = "Thank you for awesomely contacting us. Your reservation was accepted!"
+    #error = "Message could not be send. Please contact us at younglife.oaklanduniversity@gmail.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -283,8 +283,8 @@ She worked at Pied Piper for years until they went belly up."""
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      text = "Your Roommate Request *"
+      warning = "Please enter a roommate request, or type no preference."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
