@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://younglifeou.org/"
+baseurl = "https://younglifeou.org/"
 languageCode = "en-us"
 title = "YoungLife at Oakland University"
 theme = "agency"
