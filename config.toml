@@ -54,6 +54,7 @@ googleAnalytics = ""
     about = "About"
     team = "Team"
     contact = "Register"
+    waiver = "Waiver"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -71,6 +72,9 @@ googleAnalytics = ""
       name = "Timber Wolf"
       weight = 10
 
+
+[params.waiver]
+enable = true
 
   # Hero section
   [params.hero]
