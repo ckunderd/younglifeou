@@ -285,6 +285,10 @@ She worked at Pied Piper for years until they went belly up."""
     [params.contact.form.phone]
       text = "Your Phone *"
       warning = "Please enter your phone number."
+      
+      [params.contact.form.gnumber]
+      text = "Your Grizzly ID *"
+      warning = "Please enter your Grizzly ID number, starting with G."
 
     [params.contact.form.message]
       text = "Your Roommate Request *"
