@@ -245,9 +245,9 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Reserve Now"
-    subtitle  = "Fill out the form below to reserve your space today!"
-    buttonText = "Reserve now!"
+    title = "Register for the Retreat"
+    subtitle  = "Click the button below to register today!"
+    buttonText = "Reserve Now!"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
