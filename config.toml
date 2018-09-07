@@ -248,6 +248,8 @@ She worked at Pied Piper for years until they went belly up."""
     title = "Register for the Conference"
     subtitle  = "Click the button below to register today!"
     buttonText = "Reserve Now!"
+    formlink = "https://docs.google.com/forms/d/1GXGjKfKRgiTEqfFak19CmvkGNq_OJzr2lbZD9i7pSqo/edit"
+    formlinkButton = "Sign Up Now!"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
