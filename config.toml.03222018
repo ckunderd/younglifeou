@@ -54,7 +54,7 @@ googleAnalytics = ""
     about = "About"
     team = "Team"
     contact = "Register"
-    #waiver = "Waiver"
+    waiver = "Waiver"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -74,21 +74,21 @@ googleAnalytics = ""
 
 
 [params.waiver]
-enable = false
+enable = true
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Join us September 28th-30th for YoungLife OU"
-    subtitle = "September Conference 2018"
+    title = "Join us March 23-25th for YoungLife OU"
+    subtitle = "Spring Retreat 2018"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Conference Details"
+    title = "Retreat Details"
     subtitle = "Mark your calendars for an incredible weekend away."
 
     [[params.services.row]]
@@ -96,19 +96,19 @@ enable = false
     [[params.services.row.list]]
       icon = "fa-map-marker"
       title = "Where"
-      description = "The Conference is happening at the legendary Timber Wolf Lake Camp in western Michigan. Speakers, games, and more awaits."
+      description = "The retreat is happening at the legendary Timber Wolf Lake Camp in western Michigan. Sports, games, rock climbing, and more awaits."
       url = "https://timberwolf.younglife.org/Pages/default.aspx"
 
     [[params.services.row.list]]
       icon = "fa-car"
       title = "When"
-      description = "The trip starts at 5pm on Friday September 28th, with carpools leaving all evening from Oakland University. We return around 1pm on Sunday, September 30th."
+      description = "The trip starts at 5pm on Friday March 23, with carpools leaving all evening from Oakland University. We return around 1pm on Sunday, March 25th."
       url = "#contact"
 
     [[params.services.row.list]]
       icon = "fa-dollar"
       title = "Cost"
-      description = "Registration fee is only $40! There are scholarships available upon request based on need as well. Register early!"
+      description = "The first 25 students to register go for $25! The full cost is $75. There are scholarships available upon request based on need as well. Register early!"
       url = "#contact"
 
   # Portfolio section
@@ -245,7 +245,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Register for the Conference"
+    title = "Register for the Retreat"
     subtitle  = "Click the button below to register today!"
     buttonText = "Reserve Now!"
 
