@@ -80,8 +80,8 @@ enable = false
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Join us September 28th-30th for YoungLife OU"
-    subtitle = "September Conference 2018"
+    title = "Join us March 22nd - 24th for YoungLife OU"
+    subtitle = "March Conference 2019"
     buttonText = "Tell me more"
 
 
@@ -102,13 +102,13 @@ enable = false
     [[params.services.row.list]]
       icon = "fa-car"
       title = "When"
-      description = "The trip starts at 5pm on Friday September 28th, with carpools leaving all evening from Oakland University. We return around 1pm on Sunday, September 30th."
+      description = "The trip starts at 5pm on Friday March 22nd, with carpools leaving all evening from Oakland University. We return around 1pm on Sunday, March 24th."
       url = "#contact"
 
     [[params.services.row.list]]
       icon = "fa-dollar"
       title = "Cost"
-      description = "Registration fee is only $40! There are scholarships available upon request based on need as well. Register early!"
+      description = "Registration fee is $82! There are scholarships available upon request based on need as well. Register early!"
       url = "#contact"
 
   # Portfolio section
@@ -308,7 +308,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "YoungLife at Oakland University &copy; 2018"
+    copyright = "YoungLife at Oakland University &copy; 2019"
 
     [[params.footer.social]]
       icon = "fa-instagram"
